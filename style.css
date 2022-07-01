@@ -1,0 +1,256 @@
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Nuosu SIL', serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+.cabecera{
+    background-color: rgb(135, 209, 228);
+    border-bottom: solid 5px black;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    font-family: 'Nuosu SIL', serif;
+}
+
+.logo{
+    width: 15vh;
+}
+
+.navegacion{
+    display: flex;
+    list-style: none;
+    width: 800px;
+    justify-content: space-evenly;        
+}
+
+.navegacion li a{
+    text-decoration: none;
+    font-size: 28px;
+}
+
+/* main */
+
+body{
+    background-color: beige;
+}
+
+.tituloH1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 35px;
+    line-height: 5rem;
+    letter-spacing: 10px;
+    font-family: 'Nuosu SIL', serif;
+}
+
+.textoIndexDer{
+    padding-left: 40px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.banner{
+    height: 20%;
+    width: 20%;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+
+.textoIndex1{
+    max-width: 50vw;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-left: 50px;
+}
+
+.textoIndexIzq{
+    padding-right: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.video{
+    height: 20%;
+    width: 20%;
+    border: solid 3px black;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.textoIndex2{
+    max-width: 50vw;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-right: 50px;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(209, 205, 205);
+    border-top: solid 5px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;    
+}
+
+.redes1{
+    display: flex;
+    list-style: none;
+}
+.logoRedes{
+    width: 2.5vw;
+    display: flex; 
+    margin: 20px;
+}
+
+footer p{
+    font-size: 15px;
+    margin-right: 25px;
+    font-weight: bolder;
+    color: rgb(184, 9, 76);
+    font-family: 'Nuosu SIL', serif;
+}
+
+/* pagina galeria */
+
+.galeriaBrother{
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    margin: 15px 0;
+}
+
+.galeriaGeneral div img{
+    width: 35vh;
+    border: solid 3px black;
+    border-radius: 10px;
+    margin: 0px 100px;
+}
+
+.galeriaVideo{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    margin: 15px 0;
+}
+
+.galeriaGeneral div video{
+    width: 35vh;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 0px 100px;
+}
+
+/* pagina nuestros inicios */
+
+.textoInicios{
+    margin: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.imagenesInicios{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 15px 0;
+}
+
+.fotosInicios div img{
+    width: 40vh;
+    border: solid 3px black;
+    border-radius: 10px;
+    margin: 60px;
+}
+
+/* pagina ofertas */
+
+.textoOferta{
+    text-align: center;
+    font-size: 18px;
+}
+
+.ofertasArriba{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ofertasArriba img{
+    width: 35vh;
+    border: solid 7px black;
+    border-radius: 6px;
+    margin: 40px;
+}
+
+.ofertasAbajo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ofertasAbajo img{
+    width: 35vh;
+    border: solid 7px black;
+    border-radius: 6px;
+    margin: 40px;
+}
+
+/* pagina contacto */
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 70px;
+    border: solid 2px;
+    border-radius: 15px;
+}
+
+.textoFormulario{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.ubicacion h2{
+    font-size: 25px;
+}
+
+.ubicacion div{
+    border: solid 3px;
+    border-radius: 7px;
+    margin: 20px;
+}
+
+.ubicacion iframe{
+    border: solid 20px;
+}
