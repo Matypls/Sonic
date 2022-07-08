@@ -8,7 +8,7 @@
 /* header */
 
 .cabecera{
-    background-color: rgb(135, 209, 228);
+    background-color: rgb(199, 189, 157);
     border-bottom: solid 5px black;
     width: 100%;
     display: flex;
@@ -27,6 +27,11 @@ nav{
     width: 15vh;
 }
 
+.logo:hover{
+    width: 17vh;
+    transition: 3s;
+}
+
 .navegacion{
     display: flex;
     list-style: none;
@@ -37,6 +42,12 @@ nav{
 .navegacion li a{
     text-decoration: none;
     font-size: 28px;
+    color: rgb(105, 79, 46);
+}
+
+.navegacion li a:hover{
+    font-size: 40px;
+    transition: 1s;
 }
 
 /* main */
@@ -49,9 +60,10 @@ body{
     text-decoration: underline;
     text-align: center;
     font-size: 35px;
-    line-height: 5rem;
-    letter-spacing: 10px;
+    margin: 15px;
+    letter-spacing: 5px;
     font-family: 'Nuosu SIL', serif;
+    color: rgb(105, 79, 46);
 }
 
 .textoIndexDer{
@@ -105,7 +117,7 @@ body{
 /* footer */
 
 footer{
-    background-color: rgb(209, 205, 205);
+    background-color: rgb(199, 189, 157);
     border-top: solid 5px black;
     display: flex;
     justify-content: space-between;
@@ -117,21 +129,23 @@ footer ul{
     list-style: none;    
 }
 
-.redes1{
-    display: flex;
-    list-style: none;
+.fa-brands{
+    font-size: 60px;
+    margin: 20px 20px 10px 50px;
+    color: rgb(105, 79, 46);
+    transition: all 0.5s;
 }
-.logoRedes{
-    width: 2.5vw;
-    display: flex; 
-    margin: 20px;
+
+.fa-brands:hover{
+    transition:0.5s;
+    transform:rotateX(360deg);
 }
 
 footer p{
     font-size: 15px;
     margin-right: 25px;
     font-weight: bolder;
-    color: rgb(184, 9, 76);
+    color: rgb(105, 79, 46);
     font-family: 'Nuosu SIL', serif;
 }
 
@@ -168,7 +182,7 @@ footer p{
 /* pagina nuestros inicios */
 
 .textoInicios{
-    margin: 15px;
+    margin: 25px;
     text-align: center;
     font-size: 25px;
 }
