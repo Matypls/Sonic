@@ -126,7 +126,8 @@ footer{
 
 footer ul{
     display: flex;
-    list-style: none;    
+    list-style: none;  
+    margin: 25px;  
 }
 
 .fa-brands{
