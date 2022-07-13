@@ -101,15 +101,10 @@ footer{
 footer ul{    
     list-style: none;
     display: flex;
-<<<<<<< HEAD
-    list-style: none;  
-    margin: 25px;  
-=======
 }
 
 footer p{
     margin-right: 25px;
->>>>>>> pruebas
 }
 
 .fa-brands{
