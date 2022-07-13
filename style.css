@@ -1,120 +1,94 @@
-/* font-family: 'Roboto', sans-serif; */
-/* font-family: 'Nuosu SIL', serif; */
-*{
-    margin: 0;
-    padding: 0;
-}
-
-/* header */
-
-.cabecera{
-    background-color: rgb(199, 189, 157);
-    border-bottom: solid 5px black;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    position: sticky;
-    top: 0;
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    font-family: 'Nuosu SIL', serif;
-}
-
-.logo{
-    width: 15vh;
-}
-
-.logo:hover{
-    width: 17vh;
-    transition: 3s;
-}
-
-.navegacion{
-    display: flex;
-    list-style: none;
-    width: 800px;
-    justify-content: space-evenly;        
-}
-
-.navegacion li a{
-    text-decoration: none;
-    font-size: 28px;
-    color: rgb(105, 79, 46);
-}
-
-.navegacion li a:hover{
-    font-size: 40px;
-    transition: 1s;
-}
-
-/* main */
-
+/* index */
 body{
+    font-family: 'Montserrat', sans-serif;
     background-color: beige;
 }
 
-.tituloH1{
+header{
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+}
+
+h1{
+    font-size: 40px;
     text-decoration: underline;
+    color: rgb(100, 65, 20);
     text-align: center;
-    font-size: 35px;
+    padding: 20px;
     margin: 15px;
-    letter-spacing: 5px;
-    font-family: 'Nuosu SIL', serif;
-    color: rgb(105, 79, 46);
+}
+
+h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.container-fluid{
+    background-color: rgb(199, 189, 157);
+    border-bottom: solid 5px black;
+}
+
+.collapse{
+    justify-content: space-around;
+}
+
+.logo{
+    width: 150px;
+    margin-left: 70px; 
+}
+
+.navbar-nav{
+    width: 70%;
+    justify-content: space-around;
+}
+
+.navbar-toggler{
+    background-color: rgb(247, 229, 171);
+    border: 1px solid black;
+}
+
+.nav-link{
+    font-size: 20px;
 }
 
 .textoIndexDer{
-    padding-left: 40px;
-    padding-bottom: 40px;
     display: flex;
+    padding: 25px;
+    align-items: center;
 }
 
 .banner{
-    height: 20%;
-    width: 20%;
-    border: solid 3px black;
-    border-radius: 10px;
-}
-
-.textoIndex1{
-    max-width: 50vw;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-evenly;
-    padding-left: 50px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 7px;
 }
 
 .textoIndexIzq{
-    padding-right: 40px;
-    padding-bottom: 40px;
     display: flex;
     flex-direction: row-reverse;
+    padding: 25px;
+    align-items: center;
+}
+
+.textoIndex{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
 }
 
 .video{
-    height: 20%;
-    width: 20%;
-    border: solid 3px black;
-    border-radius: 10px;
-    margin-bottom: 25px;
+    width: 300px;
+    border: solid 2px black;
+    border-radius: 7px;
+    object-fit: fill;
+    margin: 15px;
 }
-
-.textoIndex2{
-    max-width: 50vw;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-evenly;
-    padding-right: 50px;
-}
-
-/* footer */
 
 footer{
     background-color: rgb(199, 189, 157);
@@ -124,16 +98,27 @@ footer{
     align-items: center;
 }
 
-footer ul{
+footer ul{    
+    list-style: none;
     display: flex;
-    list-style: none;    
+}
+
+footer p{
+    margin-right: 25px;
 }
 
 .fa-brands{
-    font-size: 60px;
-    margin: 20px 20px 10px 50px;
+    font-size: 50px;
     color: rgb(105, 79, 46);
-    transition: all 0.5s;
+    margin: 20px 40px
+}
+
+/* animaciones */
+
+.nav-link:hover{
+    color: rgb(146, 121, 46);;
+    transition: 1s;
+    text-decoration: underline;
 }
 
 .fa-brands:hover{
@@ -141,130 +126,168 @@ footer ul{
     transform:rotateX(360deg);
 }
 
-footer p{
-    font-size: 15px;
-    margin-right: 25px;
-    font-weight: bolder;
-    color: rgb(105, 79, 46);
-    font-family: 'Nuosu SIL', serif;
-}
-
-/* pagina galeria */
-
-.galeriaBrother{
-    display: flex;
-    align-content: center;
-    justify-content: flex-start;
-    margin: 15px 0;
-}
-
-.galeriaGeneral div img{
-    width: 35vh;
-    border: solid 3px black;
-    border-radius: 10px;
-    margin: 0px 100px;
-}
-
-.galeriaVideo{
-    display: flex;
-    align-content: center;
-    justify-content: flex-end;
-    margin: 15px 0;
-}
-
-.galeriaGeneral div video{
-    width: 35vh;
-    border: solid 1px black;
-    border-radius: 10px;
-    margin: 0px 100px;
-}
-
-/* pagina nuestros inicios */
+/* nuestro inicios */
 
 .textoInicios{
-    margin: 25px;
+    padding: 20px;
+    font-size: 20px;
     text-align: center;
-    font-size: 25px;
 }
 
 .imagenesInicios{
     display: flex;
-    align-content: center;
     justify-content: space-evenly;
-    margin: 15px 0;
-}
-
-.fotosInicios div img{
-    width: 40vh;
-    border: solid 3px black;
-    border-radius: 10px;
-    margin: 60px;
-}
-
-/* pagina ofertas */
-
-.textoOferta{
-    text-align: center;
-    font-size: 18px;
-}
-
-.ofertasArriba{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.ofertasArriba img{
-    width: 35vh;
-    border: solid 7px black;
-    border-radius: 6px;
-    margin: 40px;
-}
-
-.ofertasAbajo{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.ofertasAbajo img{
-    width: 35vh;
-    border: solid 7px black;
-    border-radius: 6px;
-    margin: 40px;
-}
-
-/* pagina contacto */
-
-.formulario{
-    display: flex;
-    flex-direction: column;
-    margin: 20px 70px;
-    border: solid 2px;
-    border-radius: 15px;
-}
-
-.textoFormulario{
-    font-size: 20px;
-    padding: 20px;
-}
-
-.ubicacion{
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-}
-
-.ubicacion h2{
-    font-size: 25px;
-}
-
-.ubicacion div{
-    border: solid 3px;
-    border-radius: 7px;
     margin: 20px;
 }
 
-.ubicacion iframe{
-    border: solid 20px;
+.imagenesInicios img{
+    width: 300px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+/* galeria */
+
+.cuadrado{
+    width: 600px;
+    margin: 20px;
+    border: solid 3px black;
+    border-radius: 8px;
+}
+
+.horizontal{
+    width: 700px;
+    margin: 20px;
+    border: solid 3px black;
+    border-radius: 8px;
+}
+
+.flexCarousel{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.secVideos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/* ofertas */
+
+.flexCard{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin: 35px;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: solid 2px black;
+    border-radius: 8px;
+}
+
+.btn{
+    margin-left: 55px;
+    background: radial-gradient(circle, rgba(251,230,63,1) 0%, rgba(204,190,21,1) 46%, rgba(177,140,26,1) 100%);
+}
+
+/* contacto */
+
+.foryUbi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textoForm{
+    text-align: center;
+    margin: 8px;
+}
+
+.formulario{
+    border: solid 3px black;
+    border-radius: 8px;
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.relleno{
+    width: 40vw;
+    text-align: center;
+    margin: 3px;
+}
+
+.mapa iframe{
+    border: solid black 3px;
+    border-radius: 15px;
+    margin: 35px 0px;
+    width: 700px;
+    height: 600px;
+}
+
+/* medias */
+
+@media screen and (max-width: 768px) {
+/* index */    
+    .textoIndexDer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textoIndexIzq{
+        flex-direction: column;
+    }
+
+    .fa-brands{
+        margin: 15px 20px;
+    }
+/* ofertas */
+    .card{
+        margin: 20px;
+    }
+
+    .flexCard{
+        align-items: center;
+    }
+/* contacto */
+    .formulario{
+        width: 300px;
+    }
+
+    .relleno{
+        width: 250px;
+    }
+    
+    .mapa iframe{
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+/* nuestros inicios */    
+    .imagenesInicios{
+        flex-direction: column;
+        align-items: center;       
+    }   
+    
+    .imagenesInicios img{
+        margin-top: 25px;
+    }
+/* galeria */
+    .cuadrado{
+        width: 300px;
+    }
+
+    .horizontal{
+        width: 300px;
+    }
 }
