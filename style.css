@@ -249,6 +249,16 @@ footer p{
     .fa-brands{
         margin: 15px 20px;
     }
+
+    .banner{
+        width: 300px;
+        margin: 15px 0px;
+    }
+
+    .video{
+        width: 300px;
+        margin: 15px 0px;
+    }
 /* ofertas */
     .card{
         margin: 20px;
