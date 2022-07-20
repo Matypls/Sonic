@@ -1,0 +1,22 @@
+.textoInicios{
+    margin: 30px;
+    font-size: 20px;
+
+    .paginas{
+        color: $link;
+    } 
+}
+
+.imagenesInicios{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+
+    img{
+        width: 300px;
+        border-radius: 9px;
+    }
+}
+
+
+

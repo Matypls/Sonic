@@ -1,0 +1,32 @@
+.flexCarousel{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .cuadrado{
+        width: 600px;
+        margin: 20px;
+        border: solid 3px black;
+        border-radius: 8px;
+    }
+
+    .horizontal{
+        width: 700px;
+        margin: 20px;
+        border: solid 3px black;
+        border-radius: 8px;
+    }
+}
+
+
+.secVideos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+
+    .video{
+        @extend %videos;
+    }
+}

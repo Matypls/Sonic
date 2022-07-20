@@ -1,0 +1,43 @@
+.textoIndexDer{
+    display: flex;
+    margin: 25px;
+    align-items: center;
+
+    .banner{
+        width: 500px;
+        border-radius: 7px;
+    }
+
+    .textoIndex{
+        font-size: 20px;
+        margin: 27.5px 15px;
+        
+        .paginas{
+            color: $link;
+        }
+    }       
+}
+
+.textoIndexIzq{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 25px;
+    align-items: center;
+
+    .video{
+        @extend %videos;
+    }
+    
+    .textoIndex{
+        font-size: 20px;
+        margin: 27.5px 15px;
+
+        .paginas{
+            color: $link;
+        }
+    }
+}
+
+
+
+        

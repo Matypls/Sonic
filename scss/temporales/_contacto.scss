@@ -1,0 +1,34 @@
+.foryUbi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .formulario{
+        border: solid 3px black;
+        border-radius: 8px;
+        margin: 30px 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+
+        .textoForm{
+            text-align: center;
+            margin: 8px;
+        }
+
+        .relleno{
+            width: 40vw;
+            text-align: center;
+            margin: 3px;
+        }        
+    }
+}
+
+.mapa iframe{
+    border: solid black 3px;
+    border-radius: 15px;
+    margin: 35px 0px;
+    width: 700px;
+    height: 600px;
+}

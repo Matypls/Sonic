@@ -1,0 +1,22 @@
+.flexCard{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin: 85px 35px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: rgb(252, 224, 147);
+    border: solid 1px transparent;
+    border-radius: 8px; 
+    margin: 10px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.btn{
+    width: 100%;   
+}

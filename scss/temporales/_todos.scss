@@ -1,0 +1,89 @@
+.navbar{
+    padding: 0; 
+
+    .container-fluid{
+        background-color: map-get($colores, "color-cabeza");   
+        
+        .navbar-brand{
+            
+            .logo{
+                width: 150px;
+                margin-left: 70px; 
+            }           
+        }
+        .navbar-toggler{
+            background-color: map-get($colores, "color-cabeza");
+            border: none;
+        }
+
+        .collapse{
+            justify-content: space-around;
+
+            .navbar-nav{
+                width: 70%;
+                justify-content: space-around;
+            
+                .nav-link{
+                    font-size: 20px;
+                }
+            }
+        }        
+    }
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: map-get($colores, "color-cuerpo");
+}
+
+header{
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+}
+
+h1{
+    font-size: 35px;
+    color: map-get($colores, "color-titulo");
+    text-align: center;
+    margin: 35px;
+}
+
+h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+footer{
+    background-color: map-get($colores,"color-pie");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul{    
+    list-style: none;
+    display: flex;
+}
+
+footer p{
+    margin-right: 25px;
+}
+
+.fa-brands{
+    font-size: 50px;
+    color: map-get($colores, "color-redes");
+    margin: 20px 40px;
+}
+
+.nav-link:hover{
+    color: map-get($colores, "color-nav-ani");
+    transition: 1s;
+    text-decoration: underline;
+}
+
+.fa-brands:hover{
+    transition:0.5s;
+    transform:rotateX(360deg);
+}

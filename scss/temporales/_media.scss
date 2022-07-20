@@ -1,0 +1,84 @@
+@media screen and (max-width: 768px) {
+    /* index */    
+    .textoIndexDer{
+        flex-direction: column;
+        align-items: center;
+
+        .banner{
+            width: 300px;
+            margin: 15px 0px;
+        }
+    }
+    
+    .textoIndexIzq{
+        flex-direction: column;
+
+        .video{
+            width: 300px;
+            margin: 15px 0px;
+        }
+    }
+    
+    .fa-brands{
+        margin: 15px 20px;
+    }
+
+    /* galeria */
+
+    .secVideos{
+        .video{
+            width: 300px;
+            margin: 15px 0px;
+        }
+    }
+    
+    /* ofertas */
+    
+    .flexCard{
+        align-items: center;
+
+        .card{
+            margin: 20px;
+        }
+    }
+    /* contacto */
+
+    .foryUbi{
+        .formulario{
+            width: 300px;
+    
+            .relleno{
+                width: 250px;
+            }
+        }
+    }
+            
+    .mapa iframe{
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* nuestros inicios */    
+    .imagenesInicios{
+        flex-direction: column;
+        align-items: center;       
+    }   
+        
+    .imagenesInicios img{
+        margin-top: 25px;
+    }
+    /* galeria */
+
+    .flexCarousel{
+
+        .cuadrado{
+            width: 300px;
+        }
+    
+        .horizontal{
+            width: 300px;
+        }
+    }    
+}

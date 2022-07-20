@@ -1,0 +1,222 @@
+.textoIndexIzq .video, .secVideos .video {
+  width: 400px;
+  border-radius: 7px;
+  object-fit: fill;
+  margin: 15px; }
+
+.navbar {
+  padding: 0; }
+  .navbar .container-fluid {
+    background-color: #f0c338; }
+    .navbar .container-fluid .navbar-brand .logo {
+      width: 150px;
+      margin-left: 70px; }
+    .navbar .container-fluid .navbar-toggler {
+      background-color: #f0c338;
+      border: none; }
+    .navbar .container-fluid .collapse {
+      justify-content: space-around; }
+      .navbar .container-fluid .collapse .navbar-nav {
+        width: 70%;
+        justify-content: space-around; }
+        .navbar .container-fluid .collapse .navbar-nav .nav-link {
+          font-size: 20px; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(180deg, #f0c338 15%, #fbd97a 30%, #ffe5a8 60%, #f3eacd 90%); }
+
+header {
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  z-index: 1; }
+
+h1 {
+  font-size: 35px;
+  color: #473616;
+  text-align: center;
+  margin: 35px; }
+
+h2 {
+  font-size: 25px;
+  text-align: center; }
+
+footer {
+  background-color: #f3eacd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+footer ul {
+  list-style: none;
+  display: flex; }
+
+footer p {
+  margin-right: 25px; }
+
+.fa-brands {
+  font-size: 50px;
+  color: #694f2e;
+  margin: 20px 40px; }
+
+.nav-link:hover {
+  color: #694f2e;
+  transition: 1s;
+  text-decoration: underline; }
+
+.fa-brands:hover {
+  transition: 0.5s;
+  transform: rotateX(360deg); }
+
+.textoIndexDer {
+  display: flex;
+  margin: 25px;
+  align-items: center; }
+  .textoIndexDer .banner {
+    width: 500px;
+    border-radius: 7px; }
+  .textoIndexDer .textoIndex {
+    font-size: 20px;
+    margin: 27.5px 15px; }
+    .textoIndexDer .textoIndex .paginas {
+      color: black; }
+
+.textoIndexIzq {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 25px;
+  align-items: center; }
+  .textoIndexIzq .textoIndex {
+    font-size: 20px;
+    margin: 27.5px 15px; }
+    .textoIndexIzq .textoIndex .paginas {
+      color: black; }
+
+.textoInicios {
+  margin: 30px;
+  font-size: 20px; }
+  .textoInicios .paginas {
+    color: black; }
+
+.imagenesInicios {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px; }
+  .imagenesInicios img {
+    width: 300px;
+    border-radius: 9px; }
+
+.flexCarousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .flexCarousel .cuadrado {
+    width: 600px;
+    margin: 20px;
+    border: solid 3px black;
+    border-radius: 8px; }
+  .flexCarousel .horizontal {
+    width: 700px;
+    margin: 20px;
+    border: solid 3px black;
+    border-radius: 8px; }
+
+.secVideos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px; }
+
+.flexCard {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  margin: 85px 35px;
+  flex-wrap: wrap; }
+
+.card {
+  background-color: #fce093;
+  border: solid 1px transparent;
+  border-radius: 8px;
+  margin: 10px; }
+
+.card-title {
+  text-align: center; }
+
+.btn {
+  width: 100%; }
+
+.foryUbi {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .foryUbi .formulario {
+    border: solid 3px black;
+    border-radius: 8px;
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%; }
+    .foryUbi .formulario .textoForm {
+      text-align: center;
+      margin: 8px; }
+    .foryUbi .formulario .relleno {
+      width: 40vw;
+      text-align: center;
+      margin: 3px; }
+
+.mapa iframe {
+  border: solid black 3px;
+  border-radius: 15px;
+  margin: 35px 0px;
+  width: 700px;
+  height: 600px; }
+
+@media screen and (max-width: 768px) {
+  /* index */
+  .textoIndexDer {
+    flex-direction: column;
+    align-items: center; }
+    .textoIndexDer .banner {
+      width: 300px;
+      margin: 15px 0px; }
+  .textoIndexIzq {
+    flex-direction: column; }
+    .textoIndexIzq .video {
+      width: 300px;
+      margin: 15px 0px; }
+  .fa-brands {
+    margin: 15px 20px; }
+  /* galeria */
+  .secVideos .video {
+    width: 300px;
+    margin: 15px 0px; }
+  /* ofertas */
+  .flexCard {
+    align-items: center; }
+    .flexCard .card {
+      margin: 20px; }
+  /* contacto */
+  .foryUbi .formulario {
+    width: 300px; }
+    .foryUbi .formulario .relleno {
+      width: 250px; }
+  .mapa iframe {
+    width: 300px;
+    height: 250px; } }
+
+@media screen and (max-width: 600px) {
+  /* nuestros inicios */
+  .imagenesInicios {
+    flex-direction: column;
+    align-items: center; }
+  .imagenesInicios img {
+    margin-top: 25px; }
+  /* galeria */
+  .flexCarousel .cuadrado {
+    width: 300px; }
+  .flexCarousel .horizontal {
+    width: 300px; } }
