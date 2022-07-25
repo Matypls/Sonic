@@ -1,0 +1,6 @@
+Las keywords que utilice (salon, fiestas, cumpleaños, ciudad, colores, salón, fiesta) las reutilice para todas las páginas, pero les agregue 2 palabras diferentes en cada pág
+por ejemplo en index le agregue (festejo, eventos). También preferí reutilizar la palabra salón con acento y sin acento como palabra clave.
+
+En las descripciones trate de resumir lo que uno se puede encontrar en la página al entrar. 
+
+También cambie los títulos de los HTML agregando la sección de la página en la que uno se pueda encontrar.

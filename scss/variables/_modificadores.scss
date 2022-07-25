@@ -15,3 +15,16 @@ $link: black;
     object-fit: fill;
     margin: 15px;
 }
+
+@mixin flex ($direction, $aling, $wrap, $justify){
+    display: flex;
+    flex-direction: $direction;
+    align-items: $aling;
+    flex-wrap: $wrap;
+    justify-content: $justify;    
+}
+
+@mixin bordes($formato, $radio){
+    border: $formato;
+    border-radius: $radio;
+}

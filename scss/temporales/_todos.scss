@@ -58,9 +58,7 @@ h2{
 
 footer{
     background-color: map-get($colores,"color-pie");
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex(none, center, none, space-between);
 }
 
 footer ul{    

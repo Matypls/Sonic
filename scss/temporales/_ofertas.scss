@@ -1,15 +1,11 @@
 .flexCard{
-    display: flex;
-    align-items: baseline;
-    justify-content: space-around;
+    @include flex(none, baseline, wrap, space-around);
     margin: 85px 35px;
-    flex-wrap: wrap;
 }
 
 .card{
     background-color: rgb(252, 224, 147);
-    border: solid 1px transparent;
-    border-radius: 8px; 
+    @include bordes(solid 1px transparent, 8px);
     margin: 10px;
 }
 

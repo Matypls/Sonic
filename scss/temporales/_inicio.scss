@@ -19,10 +19,8 @@
 }
 
 .textoIndexIzq{
-    display: flex;
-    flex-direction: row-reverse;
+    @include flex(row-reverse, center, none, none);
     margin: 25px;
-    align-items: center;
 
     .video{
         @extend %videos;

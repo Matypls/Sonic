@@ -1,15 +1,11 @@
 .foryUbi{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex(column, center, none, none);
 
     .formulario{
         border: solid 3px black;
         border-radius: 8px;
         margin: 30px 150px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex(column, center, none, none);
         width: 50%;
 
         .textoForm{
@@ -26,8 +22,7 @@
 }
 
 .mapa iframe{
-    border: solid black 3px;
-    border-radius: 15px;
+    @include bordes(solid black 3px, 15px);
     margin: 35px 0px;
     width: 700px;
     height: 600px;
