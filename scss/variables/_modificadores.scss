@@ -2,12 +2,12 @@ $colores: (
     "color-cabeza": #f0c338,
     "color-cuerpo": linear-gradient(180deg, #f0c338 15%, #fbd97a 30%, #ffe5a8 60%, #f3eacd 90%),
     "color-pie": #f3eacd,
-    "color-nav-ani": #694f2e,
+    "color-nav-ani": #000000,
     "color-titulo": #473616,
     "color-redes":rgb(105, 79, 46)
 );
 
-$link: black;
+$link: rgb(145, 94, 35);
 
 %videos{
     width: 400px;

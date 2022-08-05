@@ -2,8 +2,7 @@
     @include flex(column, center, none, none);
 
     .formulario{
-        border: solid 3px black;
-        border-radius: 8px;
+        @include bordes(solid 3px black, 8px);
         margin: 30px 150px;
         @include flex(column, center, none, none);
         width: 50%;

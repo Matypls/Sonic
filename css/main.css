@@ -63,7 +63,7 @@ footer p {
   margin: 20px 40px; }
 
 .nav-link:hover {
-  color: #694f2e;
+  color: black;
   transition: 1s;
   text-decoration: underline; }
 
@@ -82,7 +82,7 @@ footer p {
     font-size: 20px;
     margin: 27.5px 15px; }
     .textoIndexDer .textoIndex .paginas {
-      color: black; }
+      color: #915e23; }
 
 .textoIndexIzq {
   display: flex;
@@ -95,13 +95,13 @@ footer p {
     font-size: 20px;
     margin: 27.5px 15px; }
     .textoIndexIzq .textoIndex .paginas {
-      color: black; }
+      color: #915e23; }
 
 .textoInicios {
   margin: 30px;
   font-size: 20px; }
   .textoInicios .paginas {
-    color: black; }
+    color: #915e23; }
 
 .imagenesInicios {
   display: flex;
